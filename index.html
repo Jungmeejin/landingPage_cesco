@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<title>CESCO LANDINGPAGE</title>
+<link rel="stylesheet" href="font/font.css" type="text/css" />
+<link rel="stylesheet" href="css/default.css" type="text/css"/>
+<link rel="stylesheet" href="css/include.css" type="text/css"/>
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery.js">
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".pageIcon").click(function(){
+            $(".iconView").toggleClass('hideIcon')//0.5초 동안
+            $(".pageIcon img").toggle();
+            
+        });
+    });
+    
+</script>
+</head>
+    
+<body>
+<!--START-->
+<div id="wrap">
+<!--header-->
+<header id="header">
+    <!--logo-->
+    <h1>CESCO CONCEPT</h1>
+    <!--logo-->
+</header>
+<!--header-->
+    
+<div id="container">
+    <div class="pageTop">
+    </div>
+    <div class="pageIcon"> 
+        <p>ICON</p>
+        <img src="images/arrow_down.png"/>
+        <img src="images/arrow_up.png" style="display:none;"/>
+    </div>
+    <div class="iconView">
+        <div class="iconImg">
+            <img src="images/landing_icon.png"/>
+        </div>
+    </div>
+    <div class="pageBottom">
+    </div>
+</div>
+
+<!--footer-->
+<footer id="footer">
+    <h2>Go To Homepage</h2>
+    <div class="footerL">
+        <a href="https://jungmeejin.github.io/cesco/" target="_blank">
+            <p>Web</p>
+            <img src="images/moving_arrow.png" alt="arrow"/>
+        </a>
+    </div>
+    <div class="footerL">
+        <a href="https://jungmeejin.github.io/m.cesco/index.html" target="_blank">
+            <p>Mobile</p>
+            <img src="images/moving_arrow.png" alt="arrow"/>
+        </a>
+    </div>
+</footer>
+<!--footer-->
+</div>
+<!--END-->
+</body>
+</html>
